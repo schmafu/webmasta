@@ -13,9 +13,27 @@ npm start
 ```
 and you are good to go.
 
-To get a valid slack token, you need to configure an outgoing webhook in slack, pointing to this service
-write "webmasta: news VdH rocks" to add a new entry to your news-json
+To get a valid slack token, you need to configure an outgoing webhook in Slack, pointing to this service
 
+In Slack write 
+```pre
+webmasta: news very important update aka hello world!
+```
+to add a new entry to your news-json
+example entry of the news.json:
+```json
+{
+    "news": [
+        {
+            "text": "very important update aka hello world!",
+            "user_name": "your slack user_name",
+            "timestamp": "1422020396.000017"
+        }
+    ]
+}
+```
+
+a news.json and wars.json is provided, you may also want to look at http://vdh.g0t.it ;)
 
 ## ToDo:
 
