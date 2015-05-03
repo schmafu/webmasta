@@ -1,0 +1,417 @@
+{
+    "wars": [
+        {
+            "clan": "DJ Hubertus &amp; Co.",
+            "map": "de_inferno",
+            "result": "15-4",
+            "players": [
+                {
+                    "nick": "illy",
+                    "kills": "30",
+                    "deaths": "8"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "14",
+                    "deaths": "11"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "19",
+                    "deaths": "7"
+                }
+            ],
+            "timestamp": "1421962227.000008"
+        },
+        {
+            "clan": "SoniC &amp; Co.",
+            "map": "de_nuke",
+            "result": "16-8",
+            "players": [
+                {
+                    "nick": "illy",
+                    "kills": "17",
+                    "deaths": "10"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "12",
+                    "deaths": "13"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "31",
+                    "deaths": "10"
+                }
+            ],
+            "timestamp": "1421902374.000016"
+        },
+        {
+            "clan": "EEEEE",
+            "map": "de_dust2",
+            "result": "10-16",
+            "players": [
+                {
+                    "nick": "dave",
+                    "kills": "16",
+                    "deaths": "20"
+                },
+                {
+                    "nick": "illy",
+                    "kills": "12",
+                    "deaths": "24"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "9",
+                    "deaths": "22"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "29",
+                    "deaths": "17"
+                }
+            ],
+            "timestamp": "1422103370.000027"
+        },
+        {
+            "clan": "EEEEE",
+            "map": "de_nuke",
+            "result": "13-16",
+            "players": [
+                {
+                    "nick": "dave",
+                    "kills": "29",
+                    "deaths": "22"
+                },
+                {
+                    "nick": "illy",
+                    "kills": "27",
+                    "deaths": "20"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "16",
+                    "deaths": "22"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "19",
+                    "deaths": "19"
+                }
+            ],
+            "timestamp": "1422103486.000029"
+        },
+        {
+            "clan": "Bytnick &amp; Co.",
+            "map": "de_inferno",
+            "result": "16-7",
+            "players": [
+                {
+                    "nick": "dave",
+                    "kills": "22",
+                    "deaths": "12"
+                },
+                {
+                    "nick": "illy",
+                    "kills": "24",
+                    "deaths": "14"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "10",
+                    "deaths": "12"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "25",
+                    "deaths": "10"
+                }
+            ],
+            "timestamp": "1422104393.000054"
+        },
+        {
+            "clan": "Berlin Calling",
+            "map": " de_nuke",
+            "result": "9-16",
+            "players": [
+                {
+                    "nick": "dave",
+                    "kills": "28",
+                    "deaths": "17"
+                },
+                {
+                    "nick": "illy",
+                    "kills": "18",
+                    "deaths": "20"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "15",
+                    "deaths": "17"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "13",
+                    "deaths": "18"
+                }
+            ],
+            "timestamp": "1422104660.000065"
+        },
+        {
+            "clan": "BalkanoS",
+            "map": "de_nuke",
+            "result": "16-7",
+            "players": [
+                {
+                    "nick": "dave",
+                    "kills": "20",
+                    "deaths": "15"
+                },
+                {
+                    "nick": "illy",
+                    "kills": "22",
+                    "deaths": "14"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "14",
+                    "deaths": "16"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "22",
+                    "deaths": "15"
+                }
+            ],
+            "timestamp": "1422104775.000067"
+        },
+        {
+            "clan": "Norweger",
+            "map": "de_inferno",
+            "result": "16-11",
+            "players": [
+                {
+                    "nick": "dave",
+                    "kills": "22",
+                    "deaths": "19"
+                },
+                {
+                    "nick": "illy",
+                    "kills": "23",
+                    "deaths": "16"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "16",
+                    "deaths": "18"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "23",
+                    "deaths": "17"
+                }
+            ],
+            "timestamp": "1422104940.000070"
+        },
+        {
+            "clan": "proAsyl",
+            "map": "de_train",
+            "result": "16-10",
+            "players": [
+                {
+                    "nick": "dave",
+                    "kills": "24",
+                    "deaths": "16"
+                },
+                {
+                    "nick": "illy",
+                    "kills": "20",
+                    "deaths": "16"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "20",
+                    "deaths": "16"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "27",
+                    "deaths": "18"
+                }
+            ],
+            "timestamp": "1422105107.000072"
+        },
+        {
+            "clan": "bb",
+            "map": "de_nuke",
+            "result": "10-16",
+            "players": [
+                {
+                    "nick": "illy",
+                    "kills": "16",
+                    "deaths": "21"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "23",
+                    "deaths": "17"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "21",
+                    "deaths": "21"
+                }
+            ],
+            "timestamp": "1422306831.000021"
+        },
+        {
+            "clan": "surmi",
+            "map": "de_nuke",
+            "result": "7-16",
+            "players": [
+                {
+                    "nick": "illy",
+                    "kills": "9",
+                    "deaths": "18"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "4",
+                    "deaths": "21"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "10",
+                    "deaths": "18"
+                }
+            ],
+            "timestamp": "1422310500.000024"
+        },
+        {
+            "clan": "Deutsche",
+            "map": "de_nuke",
+            "result": "16-13",
+            "players": [
+                {
+                    "nick": "illy",
+                    "kills": "21",
+                    "deaths": "20"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "13",
+                    "deaths": "19"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "33",
+                    "deaths": "15"
+                },
+                {
+                    "nick": "dave",
+                    "kills": "29",
+                    "deaths": "16"
+                }
+            ],
+            "timestamp": "1422480779.000039"
+        },
+        {
+            "clan": "qeiz",
+            "map": "de_inferno",
+            "result": "11-16",
+            "players": [
+                {
+                    "nick": "illy",
+                    "kills": "15",
+                    "deaths": "20"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "12",
+                    "deaths": "21"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "19",
+                    "deaths": "17"
+                },
+                {
+                    "nick": "dave",
+                    "kills": "34",
+                    "deaths": "20"
+                }
+            ],
+            "timestamp": "1422484713.000041"
+        },
+        {
+            "clan": "qeiz",
+            "map": "de_dust2",
+            "result": "16-4",
+            "players": [
+                {
+                    "nick": "illy",
+                    "kills": "16",
+                    "deaths": "7"
+                },
+                {
+                    "nick": "pari",
+                    "kills": "12",
+                    "deaths": "12"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "22",
+                    "deaths": "10"
+                },
+                {
+                    "nick": "dave",
+                    "kills": "26",
+                    "deaths": "11"
+                }
+            ],
+            "timestamp": "1422484815.000043"
+        },
+        {
+            "clan": "sterne",
+            "map": "de_inferno",
+            "result": "10-16",
+            "players": [
+                {
+                    "nick": "pari",
+                    "kills": "11",
+                    "deaths": "24"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "20",
+                    "deaths": "21"
+                },
+                {
+                    "nick": "dave",
+                    "kills": "27",
+                    "deaths": "21"
+                }
+            ],
+            "timestamp": "1422486979.000045"
+        },
+        {
+            "clan": "myclan",
+            "map": "mymap",
+            "result": "15-15",
+            "players": [
+                {
+                    "nick": "pari",
+                    "kills": "30",
+                    "deaths": "2"
+                },
+                {
+                    "nick": "woody",
+                    "kills": "19",
+                    "deaths": "9"
+                }
+            ],
+            "timestamp": "1430689183.000010"
+        }
+    ]
+}
