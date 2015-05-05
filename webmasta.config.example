@@ -1,0 +1,6 @@
+var config = {}
+config.warpath = "wars.json";
+config.newspath = "news.json";
+config.slacktoken =  'your_slack_token'; 
+
+module.exports = config;
