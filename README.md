@@ -11,6 +11,7 @@ edit the config, you need a valid newspath, warpath and slacktoken.
 ```bash
 npm start
 ```
+
 and you are good to go.
 
 To get a valid slack token, you need to configure an outgoing webhook in Slack, pointing to this service
@@ -19,7 +20,11 @@ In Slack write
 ```pre
 webmasta: news very important update aka hello world!
 ```
+
+
 to add a new entry to your news-json
+
+
 example entry of the news.json:
 ```json
 {
