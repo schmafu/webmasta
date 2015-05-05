@@ -1,6 +1,6 @@
 {
   "name": "vdh",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Webmasta Service, a Slack Integration",
   "main": "index.js",
   "scripts": {

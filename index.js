@@ -75,14 +75,13 @@ app.post('/webmasta', function (req, res) {
         });
     }
 
-   if(req.body.token != config.slacktoken) { // PROD
+   if(req.body.token != config.slacktoken) { 
      res.status(403).end();
 	 return
 	}
     // I am pretty sure there is a node module that does this more efficent ;)
     var slack = req.body.text.trim().substr(req.body.trigger_word.length).trim().split(" ");
     var keyword = slack[0];
-
     // wars - we get quite a complex string, e.g.:
     // webmasta: wars <clan>, <map>, <result>, <player1_name>, <player1_kills>, <player1_deaths>, <player2_name> ...
     //
@@ -90,7 +89,7 @@ app.post('/webmasta', function (req, res) {
     if(keyword === "wars") {
         var warList = slack.slice(1).join(" ").split(',');
         if(warList.length < 8) { // 1on1 does not count
-          respHandler("*Fehler!!!* zu wenig Parameter, richtiger Aufruf:\n webmasta: wars <clan>, <map>, <result>, <player1_name>, <player1_kills>, <player1_deaths>, <player2_name> ... ");
+          respHandler("*Fehler!!!* zu wenig Parameter, richtiger Aufruf:\n ```\nwebmasta: wars <clan>, <map>, <result>, <player1_name>, <player1_kills>, <player1_deaths>, <player2_name> ... ``` ");
           return
         }
         // VdH is our clan, so I won't change the variable name, deal with it ;)
@@ -108,19 +107,19 @@ app.post('/webmasta', function (req, res) {
         }
         vdh.wars.push(warEntry);
         writeJSON(config.warpath,vdh);
-    } else if (keyword === "news") {
+    } else if (keyword === "news" && slack.length > 2) {
         var vdh = JSON.parse(fs.readFileSync(config.newspath, 'utf8'));
         vdh.news.push({"text": slack.slice(1).join(" "), "user_name":req.body.user_name.toString(), "timestamp": "" + req.body.timestamp});
         writeJSON(config.newspath,vdh);
-    } else if (keyword === "show") {
+    } else if (keyword === "show" && slack.length == 2) {
         if(slack[1] === "news") {
             var vdh = JSON.parse(fs.readFileSync(config.newspath, 'utf8'));
-            respHandler("Letzter Eintrag: " + JSON.stringify(vdh.news.pop()));
+            respHandler("Letzter Eintrag: \n```" + JSON.stringify(vdh.news.pop()) + "```");
         } else if(slack[1] === "wars") {
             var vdh = JSON.parse(fs.readFileSync(config.warpath, 'utf8'));
-            respHandler("Letzter Eintrag: " + JSON.stringify(vdh.wars.pop(),null,2));
+            respHandler("Letzter Eintrag: \n```" + JSON.stringify(vdh.wars.pop(),null,2) + "```");
         }
-    } else if (keyword === "delete") {
+    } else if (keyword === "delete" && slack.length == 2) {
         if(slack[1] === "news") {
             var vdh = JSON.parse(fs.readFileSync(config.newspath, 'utf8'));
             vdh.news = vdh.news.slice(0,-1)
@@ -131,7 +130,7 @@ app.post('/webmasta', function (req, res) {
             vdh.wars = vdh.wars.slice(0,-1)
             writeJSON(config.warpath,vdh);
         }
-    } else if (keyword === "player") {
+    } else if (keyword === "player" && slack.length == 2) {
         var stats = [0,0];
         var found = false;
         if(!fs.existsSync(config.warpath)) {
@@ -159,7 +158,7 @@ app.post('/webmasta', function (req, res) {
         else
           respHandler("Keine Statistiken zu " + slack[1] + " verfügbar");
     } else {
-        respHandler(keyword + " ist kein gültiger Befehl! derzeit sind \nplayer <nick>\n show {news|wars}\n delete {news|wars}\n news <text> \n wars <clan>, <map>, <result>, <player1_name>, <player1_kills>, <player1_deaths>, <player2_name> ... \n verfügbar");
+        respHandler(slack.join(" ") + " ist kein gültiger Befehl! derzeit sind \n``` player <nick>\n show {news|wars}\n delete {news|wars}\n news <text> \n wars <clan>, <map>, <result>, <player1_name>, <player1_kills>, <player1_deaths>, <player2_name> ...``` \n verfügbar");
     }
    //console.log(req.body);
 })
