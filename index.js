@@ -39,7 +39,6 @@ var config = require('./webmasta.config');
 var fs = require('fs');
 var express = require('express');
 var bodyParser = require('body-parser');
-//var validator = require("validator");
 var app = express();
 
 // backwards compatibility

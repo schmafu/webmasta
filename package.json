@@ -1,6 +1,6 @@
 {
   "name": "vdh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webmasta Service, a Slack Integration",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.10.2",
-    "express": "^4.11.1",
-    "validator": "^3.28.0"
+    "express": "^4.11.1"
   }
 }

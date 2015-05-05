@@ -7,8 +7,17 @@ This Slack Integration allows you to store news and results of fun wars in a jso
 
 ## Usage:
 
-edit the config, you need a valid newspath, warpath and slacktoken.
+edit the config, you need a valid newspath, warpath and slacktoken:
+```javascript
+config.warpath = "wars.json";
+config.newspath = "news.json";
+config.slacktoken =  'your_slack_token'; 
+```
+
+install and start:
+
 ```bash
+npm install
 npm start
 ```
 
